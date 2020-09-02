@@ -11,7 +11,7 @@
 This is an ETL pipeline that extracts log data from AWS S3, stages it in AWS Redshift, and transforms it into dimensional tables for further data analysis. For easier maintenance, it is built from reusable tasks, can be monitored, and allow easy backfills. This pipeline is an extention to this [project](https://github.com/leolian003/Redshift-ETLandDW).
 
 ## Project Background
-As requested by a hypothetical music streaming service startup, Sparkify, we are asked to build an ETL pipeline for its activity log and song metadata that resides in S3 in a json format. The outcome of this pipeline is a data warehouse with 4 dimensional tables and 1 fact table. 
+A hypothetical music streaming service startup asked for an ETL pipeline for its activity log and song metadata that resides in S3 in a json format. The outcome of this pipeline is a data warehouse with 4 dimensional tables and 1 fact table. 
 
 ## Project Goal 
 
