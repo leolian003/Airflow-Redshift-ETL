@@ -73,8 +73,9 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 
 4. Click on the dag to monitor the workflow process from a `tree view`. 
 ![monitor](img/monitor.png)
-5. If a problem is raised, click on the color square corresponding to the failed task on the `tree view`, and then click on `View log` to debug.
+5. If a problem is raised, click on the color square corresponding to the failed task on the `tree view`.
 ![tree](img/tree-view.png)
+    Click on `View log` to debug.
 ![log](img/view-log.png)
 
 ## ETL structure
@@ -83,6 +84,10 @@ The best part of this workflow, compared to the [previous version](https://githu
 
 ![etl](img/etl-structure.png)
 
+## Next step
+
+1. Fix the linking issue of `$DAG_HOME`.
+2. Build more data quality checks.
 
 
 
