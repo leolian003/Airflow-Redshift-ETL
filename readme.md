@@ -1,7 +1,10 @@
 # Airflow-powered ETL pipeline for a Redshift data warehouse
     
-:-------------------------:|:-------------------------:
-![](/img/airflow.png)       ![](/img/redshift.png) 
+<p float="left">
+  <img src="/img/airflow.png" width="100" />
+  <img src="/img/redshift.png" width="100" /> 
+</p>
+
 
 ## Overview
 
