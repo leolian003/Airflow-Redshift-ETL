@@ -62,8 +62,8 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 3. Go to airflow web UI and trigger DAG `ETL-redshiftDW`.
 ![trigger](img/trigger-dag.png)
 
-Alternatively, turn on the DAG so that it will be triggered for each scheduled interval. (1 hr in this case)
-![turnon](img/turn-on.png)
+   Alternatively, turn on the DAG so that it will be triggered for each scheduled interval. (1 hr in this case)
+   ![turnon](img/turn-on.png)
 
 4. Click on the dag to monitor the workflow process from a `tree view`. 
 ![monitor](img/monitor.png)
