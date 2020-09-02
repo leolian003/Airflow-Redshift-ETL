@@ -15,7 +15,7 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 
 ### Database setup
 
-1. Create a redshift cluster based on the step 1 - step 5 of this [guide](https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html)
+1. Create a redshift cluster based on the step 1 - step 5 of this [guide](https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html).
 
    Some reasonable configuration: 
    * node type: "dc2.large"
@@ -34,7 +34,7 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 
 ### Airflow configs setup
 
-1. To initial metadata database, launch Airflow web UI and Airflow scheduler, follow steps suggested in this [guideline](https://airflow.apache.org/docs/stable/start.html) 
+1. To initial metadata database, launch Airflow web UI and Airflow scheduler, follow steps suggested in this [guideline](https://airflow.apache.org/docs/stable/start.html). 
 
 2. Set up connections and hooks: 
    * on Airflow web UI, Click on the Admin tab and select Connections.
