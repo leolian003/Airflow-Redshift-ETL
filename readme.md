@@ -15,7 +15,7 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 
 ### Database setup
 
-1. Create a redshift cluster based on the step 1-step 5 of this [guide](https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html)
+1. Create a redshift cluster based on the step 1 - step 5 of this [guide](https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html)
 
    Some reasonable configuration: 
    * node type: "dc2.large"
