@@ -60,20 +60,20 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
 2. go to `dag/ETL-redshiftDW-dag.pg`, in the first few lines,find code `sys.path.insert(1,'/PATH/CONTAINS/PLUGINS')`. Replace the `/PATH/CONTAINS/PLUGINS` with the absolute path that contains `plugins` folder in this repo. 
     * **This is a workaround, as for some reason Airflow cannot access my custom operators in the [normal way](https://airflow.apache.org/docs/stable/howto/custom-operator.html). Will fix it in the next version.**
 3. go to airflow web UI and trigger DAG `ETL-redshiftDW`.
-![trigger](../img/trigger-dag.png)
+![trigger](img/trigger-dag.png)
 3.1 Alternatively, turn on the DAG so that it will be triggered for each scheduled interval. (1 hr in this case)
-![turnon](../turn-on.png)
+![turnon](turn-on.png)
 4. click on the dag to monitor the workflow process from a `tree view`. 
-![monitor](../img/monitor.png)
+![monitor](img/monitor.png)
 5. if a problem is raised, click on the color square corresponding to the failed task on the `tree view`, and then click on `View log` to debug.
-![tree](../img/tree-view.png)
-![log](../img/view-log.png)
+![tree](img/tree-view.png)
+![log](img/view-log.png)
 
 ## ETL structure
 
 The best part of this workflow, compared to the [previous version](https://github.com/leolian003/Redshift-ETLandDW), is that it is built from the reusable and parametrized blocks. For instance, staging the songs dataset / logs dataset in Redshift are two separate tasks in the previous version. In this version, however, they can be handled by one dag operator with different parameter values. The upside of this abstraction is to reduce code redundancy and increase reusability.
 
-![etl](../img/etl-structure.png)
+![etl](img/etl-structure.png)
 
 
 
