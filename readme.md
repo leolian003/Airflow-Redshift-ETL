@@ -1,4 +1,4 @@
-# Airflow-powered ETL pipeline for a Redshift database
+# Airflow-powered ETL pipeline for a Redshift data warehouse
 
 ## Overview
 
