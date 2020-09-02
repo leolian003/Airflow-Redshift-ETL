@@ -2,7 +2,7 @@
     
 <p float="left">
   <img src="/img/airflow.png" width="400" />
-  <img src="/img/redshift.png" width="300" height = '100'/> 
+  <img src="/img/redshift.png" width="300"/> 
 </p>
 
 
