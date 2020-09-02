@@ -22,7 +22,7 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
    * cluster type: "multi-node"
    * number of nodes: 4
 
-2. Based on the redshift metadata, fill the open fields in the dwh.cfg under /instantiate-database. 
+2. Based on the redshift metadata, fill the open fields in the dwh.cfg under `/instantiate-database`. 
    * (Host)Endpoint that hosts the cluster: *.REGION.redshift.amazonaws.com
    * Redshift IAM Role's ARN: arn:aws:iam::*:role/*
    * Database Name
@@ -30,7 +30,7 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
    * Access Password
    * Database PORT (eg. 5439)
 
-3. Execute create_tables.py
+3. Execute `instantiate-database/create_tables.py`.
 
 ### Airflow configs setup
 
