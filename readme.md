@@ -1,4 +1,4 @@
-# ETL pipeline with Airflow scheduler 
+# Airflow-powered ETL pipeline for a Redshift database
 
 ## Overview
 
