@@ -1,4 +1,7 @@
 # Airflow-powered ETL pipeline for a Redshift data warehouse
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](/img/airflow.png) ![](/img/redshift.png) 
 
 ## Overview
 
@@ -78,7 +81,7 @@ The best part of this workflow, compared to the [previous version](https://githu
 ![etl](img/etl-structure.png)
 
 
-
+## 
 
 
  
