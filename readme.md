@@ -78,17 +78,18 @@ Build an easy-to-maintain ETL pipeline that is run at regular interval to take c
     Click on `View log` to debug.
 ![log](img/view-log.png)
 
+
+## ETL structure in context
+
+The purpose of this ETL pipeline is transforming different data sources into well-structured star schema to support further data analysis. One key step is staging, in which data collected from different sources are transferred to a storage (S3 for example) before ingesting to the data warehouse. This step mitigates the difficulty when transferring data between different RDBMS. 
+
+![](/img/flowchart.png)
+
 ## Workflow structure
 
 The best part of this workflow, compared to the [previous version](https://github.com/leolian003/Redshift-ETLandDW), is that it is built from the reusable and parametrized blocks. For instance, staging the songs dataset / logs dataset in Redshift were two separate tasks. In this version, however, they can be handled by one dag operator with different parameter values. The upside of this abstraction is to reduce code redundancy and increase reusability.
 
 ![etl](img/etl-structure.png)
-
-## ETL structure
-
-The purpose of this ETL is transforming different data sources into well-structured star schema to support further data analysis. One key step is staging, in which data collected from different sources are transferred to a storage (S3 for example) before ingesting to the data warehouse. This step mitigates the difficulty when transferring data between different RDBMS. 
-
-![](/img/flowchart.png)
 
 ## Next step
 
